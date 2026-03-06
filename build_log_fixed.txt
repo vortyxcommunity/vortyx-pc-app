@@ -1,0 +1,154 @@
+﻿
+> vortyx-app@1.0.0 electron:build
+> vite build && electron-builder --win --x64
+
+[36mvite v5.4.19 [32mbuilding for production...[36m[39m
+transforming...
+node.exe : Browserslist: 
+browsers data 
+(caniuse-lite) is 9 months 
+old. Please run:
+Au caractère C:\Program 
+Files\nodejs\npm.ps1:29 : 3
++   & $NODE_EXE $NPM_CLI_JS 
+$args
++   ~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~
+    + CategoryInfo          
+    : NotSpecified: (Brows  
+  erslist: b...ld. Please   
+  run::String) [], Remot    
+eException
+    + FullyQualifiedErrorId 
+    : NativeCommandError
+ 
+  npx update-browserslist-db
+@latest
+  Why you should do it 
+regularly: https://github.co
+m/browserslist/update-db#rea
+dme
+[32m✓[39m 2481 modules transformed.
+rendering chunks...
+computing gzip size...
+[2mdist/[22m[32mindex.html                       [39m[1m[2m  0.52 kB[22m[1m[22m[2m │ gzip:   0.30 kB[22m
+[2mdist/[22m[32massets/vortyx-logo-JKWSqPYn.png  [39m[1m[2m 38.78 kB[22m[1m[22m
+[2mdist/[22m[35massets/index-Dw4D5Z-7.css        [39m[1m[2m 83.25 kB[22m[1m[22m[2m │ gzip:  13.36 kB[22m
+[2mdist/[22m[36massets/index-luWVuNPN.js         [39m[1m[33m842.67 kB[39m[22m[2m │ gzip: 246.92 kB[22m
+[32m✓ built in 5.06s[39m
+[33m
+(!) Some chunks are larger 
+than 500 kB after 
+minification. Consider:
+- Using dynamic import() to 
+code-split the application
+- Use build.rollupOptions.ou
+tput.manualChunks to 
+improve chunking: https://ro
+llupjs.org/configuration-opt
+ions/#output-manualchunks
+- Adjust chunk size limit 
+for this warning via build.c
+hunkSizeWarningLimit.[39m
+  • electron-builder  version=24.13.3 os=10.0.26200
+  • loaded configuration  file=package.json ("build" field)
+  • description is missed in the package.json  appPackageFile=C:\Users\lenovo\Desktop\vortyx pc app\package.json
+  • author is missed in the package.json  appPackageFile=C:\Users\lenovo\Desktop\vortyx pc app\package.json
+  • packaging       platform=win32 arch=x64 electron=26.6.10 appOutDir=dist\win-unpacked
+  • building        target=nsis file=dist\Vortyx_setup.exe archs=x64 oneClick=false perMachine=false
+  ⨯ C:\Users\lenovo\AppData\Local\electron-builder\Cache\nsis\nsis-3.0.4.1\Bin\makensis.exe process failed ERR_ELECTRON_BUILDER_CANNOT_EXECUTE
+Exit code:
+1
+Output:
+Command line defined: "APP_ID=com.vortyx.app"
+Command line defined: "APP_GUID=1db1c8f7-bd05-5717-8dff-9b2f77a83e4f"
+Command line defined: "UNINSTALL_APP_KEY=1db1c8f7-bd05-5717-8dff-9b2f77a83e4f"
+Command line defined: "PRODUCT_NAME=Vortyx"
+Command line defined: "PRODUCT_FILENAME=Vortyx"
+Command line defined: "APP_FILENAME=Vortyx"
+Command line defined: "APP_DESCRIPTION="
+Command line defined: "VERSION=1.0.0"
+Command line defined: "PROJECT_DIR=C:\Users\lenovo\Desktop\vortyx pc app"
+Command line defined: "BUILD_RESOURCES_DIR=C:\Users\lenovo\Desktop\vortyx pc app\build"
+Command line defined: "APP_PACKAGE_NAME=vortyx-app"
+Command line defined: "MUI_ICON=C:\Users\lenovo\Desktop\vortyx pc app\public\vortyx-logo.png"
+Command line defined: "MUI_UNICON=C:\Users\lenovo\Desktop\vortyx pc app\public\vortyx-logo.png"
+Command line defined: "APP_64=C:\Users\lenovo\Desktop\vortyx pc app\dist\vortyx-app-1.0.0-x64.nsis.7z"
+Command line defined: "APP_64_NAME=vortyx-app-1.0.0-x64.nsis.7z"
+Command line defined: "APP_64_HASH=D2AC1F2F9D9D14A3B6C32C739B60DD306CDB6D107151985B23B334D35542E5E6F036E1411DEE4135A81094DEC60803A98C39024C5CED63025A96D31CF1905F67"
+Command line defined: "APP_64_UNPACKED_SIZE=577254"
+Command line defined: "APP_INSTALLER_STORE_FILE=vortyx-app-updater\installer.exe"
+Command line defined: "COMPRESSION_METHOD=7z"
+Command line defined: "MULTIUSER_INSTALLMODE_ALLOW_ELEVATION"
+Command line defined: "INSTALL_MODE_PER_ALL_USERS_REQUIRED"
+Command line defined: "allowToChangeInstallationDirectory"
+Command line defined: "SHORTCUT_NAME=Vortyx"
+Command line defined: "UNINSTALL_DISPLAY_NAME=Vortyx 1.0.0"
+Command line defined: "MUI_WELCOMEFINISHPAGE_BITMAP=${NSISDIR}\Contrib\Graphics\Wizard\nsis3-metro.bmp"
+Command line defined: "MUI_UNWELCOMEFINISHPAGE_BITMAP=${NSISDIR}\Contrib\Graphics\Wizard\nsis3-metro.bmp"
+Command line defined: "UNINSTALLER_ICON=C:\Users\lenovo\Desktop\vortyx pc app\public\vortyx-logo.png"
+Command line defined: "ESTIMATED_SIZE=577254"
+Command line defined: "COMPRESS=auto"
+Command line defined: "BUILD_UNINSTALLER"
+Command line defined: "UNINSTALLER_OUT_FILE=C:\Users\lenovo\Desktop\vortyx pc app\dist\__uninstaller-nsis-vortyx-app.exe"
+Processing config: C:\Users\lenovo\AppData\Local\electron-builder\Cache\nsis\nsis-3.0.4.1\nsisconf.nsh
+Processing script file: "<stdin>" (UTF8)
+
+Error output:
+Error while loading icon from "C:\Users\lenovo\Desktop\vortyx pc app\public\vortyx-logo.png": invalid icon file
+Error in macro MUI_INTERFACE on macroline 87
+Error in macro MUI_UNPAGE_INIT on macroline 7
+Error in macro MUI_UNPAGE_WELCOME on macroline 5
+!include: error in script: "assistedInstaller.nsh" on line 70
+Error in script "<stdin>" on line 110 -- aborting creation process
+  failedTask=build stackTrace=Error: C:\Users\lenovo\AppData\Local\electron-builder\Cache\nsis\nsis-3.0.4.1\Bin\makensis.exe process failed ERR_ELECTRON_BUILDER_CANNOT_EXECUTE
+Exit code:
+1
+Output:
+Command line defined: "APP_ID=com.vortyx.app"
+Command line defined: "APP_GUID=1db1c8f7-bd05-5717-8dff-9b2f77a83e4f"
+Command line defined: "UNINSTALL_APP_KEY=1db1c8f7-bd05-5717-8dff-9b2f77a83e4f"
+Command line defined: "PRODUCT_NAME=Vortyx"
+Command line defined: "PRODUCT_FILENAME=Vortyx"
+Command line defined: "APP_FILENAME=Vortyx"
+Command line defined: "APP_DESCRIPTION="
+Command line defined: "VERSION=1.0.0"
+Command line defined: "PROJECT_DIR=C:\Users\lenovo\Desktop\vortyx pc app"
+Command line defined: "BUILD_RESOURCES_DIR=C:\Users\lenovo\Desktop\vortyx pc app\build"
+Command line defined: "APP_PACKAGE_NAME=vortyx-app"
+Command line defined: "MUI_ICON=C:\Users\lenovo\Desktop\vortyx pc app\public\vortyx-logo.png"
+Command line defined: "MUI_UNICON=C:\Users\lenovo\Desktop\vortyx pc app\public\vortyx-logo.png"
+Command line defined: "APP_64=C:\Users\lenovo\Desktop\vortyx pc app\dist\vortyx-app-1.0.0-x64.nsis.7z"
+Command line defined: "APP_64_NAME=vortyx-app-1.0.0-x64.nsis.7z"
+Command line defined: "APP_64_HASH=D2AC1F2F9D9D14A3B6C32C739B60DD306CDB6D107151985B23B334D35542E5E6F036E1411DEE4135A81094DEC60803A98C39024C5CED63025A96D31CF1905F67"
+Command line defined: "APP_64_UNPACKED_SIZE=577254"
+Command line defined: "APP_INSTALLER_STORE_FILE=vortyx-app-updater\installer.exe"
+Command line defined: "COMPRESSION_METHOD=7z"
+Command line defined: "MULTIUSER_INSTALLMODE_ALLOW_ELEVATION"
+Command line defined: "INSTALL_MODE_PER_ALL_USERS_REQUIRED"
+Command line defined: "allowToChangeInstallationDirectory"
+Command line defined: "SHORTCUT_NAME=Vortyx"
+Command line defined: "UNINSTALL_DISPLAY_NAME=Vortyx 1.0.0"
+Command line defined: "MUI_WELCOMEFINISHPAGE_BITMAP=${NSISDIR}\Contrib\Graphics\Wizard\nsis3-metro.bmp"
+Command line defined: "MUI_UNWELCOMEFINISHPAGE_BITMAP=${NSISDIR}\Contrib\Graphics\Wizard\nsis3-metro.bmp"
+Command line defined: "UNINSTALLER_ICON=C:\Users\lenovo\Desktop\vortyx pc app\public\vortyx-logo.png"
+Command line defined: "ESTIMATED_SIZE=577254"
+Command line defined: "COMPRESS=auto"
+Command line defined: "BUILD_UNINSTALLER"
+Command line defined: "UNINSTALLER_OUT_FILE=C:\Users\lenovo\Desktop\vortyx pc app\dist\__uninstaller-nsis-vortyx-app.exe"
+Processing config: C:\Users\lenovo\AppData\Local\electron-builder\Cache\nsis\nsis-3.0.4.1\nsisconf.nsh
+Processing script file: "<stdin>" (UTF8)
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        Error output:
+Error while loading icon from "C:\Users\lenovo\Desktop\vortyx pc app\public\vortyx-logo.png": invalid icon file
+Error in macro MUI_INTERFACE on macroline 87
+Error in macro MUI_UNPAGE_INIT on macroline 7
+Error in macro MUI_UNPAGE_WELCOME on macroline 5
+!include: error in script: "assistedInstaller.nsh" on line 70
+Error in script "<stdin>" on line 110 -- aborting creation process
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            at ChildProcess.<anonymous> (C:\Users\lenovo\Desktop\vortyx pc app\node_modules\builder-util\src\util.ts:252:14)
+    at Object.onceWrapper (node:events:633:26)
+    at ChildProcess.emit (node:events:518:28)
+    at ChildProcess.cp.emit (C:\Users\lenovo\Desktop\vortyx pc app\node_modules\cross-spawn\lib\enoent.js:34:29)
+    at maybeClose (node:internal/child_process:1101:16)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:304:5)
+
